@@ -1,8 +1,11 @@
+from django.db import models
+
+# Create your models here.
 import openai
 import os
 
 # Configura la API key
-openai.api_key = "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";
+openai.api_key = "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";
 
 # Define el modelo y el prompt
 model_engine = "text-davinci-002"
