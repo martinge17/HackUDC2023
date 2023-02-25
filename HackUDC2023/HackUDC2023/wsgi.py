@@ -1,5 +1,5 @@
 """
-WSGI config for HackUdc2023_python project.
+WSGI config for HackUDC2023 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'HackUdc2023_python.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'HackUDC2023.settings')
 
 application = get_wsgi_application()
