@@ -1,6 +1,20 @@
-<form method="post">
-    {% csrf_token %}
-    <label for="input_text">Ingrese el texto:</label><br>
-    <textarea id="input_text" name="input_text" rows="4" cols="50"></textarea><br>
-    <input type="submit" value="Generar">
-</form>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> BÚSQUEDA </title>
+  </head>
+  <body>
+      <form method="post" action="#" class="my-form">
+              {% csrf_token %}
+              <fieldset>
+                <legend>Ingrese el texto:</legend>
+                <label for="input_text">Texto:</label>
+                <textarea id="input_text" name="input_text" rows="4" cols="50" required aria-required="true"></textarea>
+              </fieldset>
+              <button type="submit" class="my-btn">Generar</button>
+          </form>
+  </body>
+</html>
