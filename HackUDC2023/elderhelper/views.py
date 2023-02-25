@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 model_engine = "text-davinci-003"
 
 def index(request):
