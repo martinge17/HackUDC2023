@@ -51,5 +51,5 @@ def recognize_image(image_path):
         print("Error:", response.status_code, response.text)
 
 if __name__ == "__main__":
-    image_path = 'ruta_foto' # Reemplaza con la ruta y nombre de tu imagen
+    image_path = 'paella-mixta-800x477.jpg' # Reemplaza con la ruta y nombre de tu imagen
     recognize_image(image_path)

@@ -23,8 +23,8 @@
       <form method="post" action="#" class="my-form">
               {% csrf_token %}
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Introduce Texto</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="input_text" class="form-label">Introduce Texto</label>
+                <textarea class="form-control" id="input_text" name="input_text" rows="4" cols="50"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Generar</button>
           </form>
