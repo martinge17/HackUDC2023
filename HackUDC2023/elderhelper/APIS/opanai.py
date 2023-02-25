@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "APIKEY"
+openai.api_key = "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"
 
 def generar_respuesta(pregunta):
     model_engine = "text-davinci-002"
@@ -13,4 +13,5 @@ def generar_respuesta(pregunta):
         temperature=0.5,
     )
     message = completions.choices[0].text.strip()
+    print(message)
     return message

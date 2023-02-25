@@ -10,7 +10,7 @@ def recognize_image(image_path):
 
     # Define los encabezados de la solicitud
     headers = {
-        'Authorization': "Key 2282",
+        'Authorization': "Key 2282a5854a274e9c9dd13ca7d3f56ccc",
         'Content-Type': 'application/json'
     }
 
