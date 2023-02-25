@@ -1,0 +1,6 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="input_text">Ingrese el texto:</label><br>
+    <textarea id="input_text" name="input_text" rows="4" cols="50"></textarea><br>
+    <input type="submit" value="Generar">
+</form>
